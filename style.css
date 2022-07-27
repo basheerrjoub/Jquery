@@ -1,0 +1,111 @@
+
+body {
+    background-color: aqua;
+    width: 100%;
+    padding: 0;
+    
+}
+
+
+#box {
+    width: 60px;
+    height: 60px;
+    background-color: tomato;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    border: 10px solid rgb(255, 84, 54);
+    z-index: 2;
+    
+    
+}
+#boxChild {
+    position: inherit;
+    width: 60px;
+    height: 60px;
+    top: 0%;
+    left: 0%;
+    background-color: white;
+    z-index: 100;
+    
+}
+
+#inner-text {
+    position: inherit;
+    top: -37%;
+    left: 15%;
+    font-size: 35px;
+}
+
+h1 {
+    color: tomato;
+    font-family:sans-serif;
+    font-weight: 800;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 3em;
+    
+}
+
+.slider{
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px solid blue;
+    z-index: 10;
+    font-size: 1px;
+    color: blue;
+
+}
+
+
+
+#slide-down{
+    width: inherit;
+    height: inherit;
+    top: -10px;
+    left: -10px;
+    
+}
+
+#slide-up{
+    width: inherit;
+    height: inherit;
+    top: -10px;
+    left: -10px;
+    
+}
+
+#slide-right{
+    height: inherit;
+    width: inherit;
+    top: -10px;
+    left: -10px;    
+}
+
+#slide-left {
+    height: inherit;
+    width: inherit;
+    top: -10px;
+    left: -10px;
+
+}
+
+.slide-text{
+    position: inherit;
+    width: 60px;
+    height: 16px;
+    top: 10%;
+    left: 0;
+    text-align: center;
+    font-family:sans-serif ;
+    font-weight: 600;
+    background-color: white;
+    text-shadow: 10px black;
+    z-index: 100;
+    font-size: 16px;
+    
+    
+}
