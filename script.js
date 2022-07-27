@@ -1,11 +1,4 @@
-
-
-
-
-
 $(document).ready(function(){
-
-    // jQuery methods go here...
     
     $("#box").mouseenter(function(){
         $("h1").hide();
